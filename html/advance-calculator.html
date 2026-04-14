@@ -537,8 +537,7 @@
                   </div>
                   <div
                     class="col offense equipment card-custom card-custom__object text-center"
-                    data-id="giant_arrow"
-                  >
+                    data-id="giant_arrow">
                     <h5>Giant Arrow</h5>
                     <div class="object-container">
                       <img class="image object-container__img" />
@@ -613,6 +612,45 @@
                       </button>
                     </div>
                   </div>
+                  <div
+                    class="col offense equipment card-custom card-custom__object text-center"
+                    data-id="rocket_backpack"
+                  >
+                    <h5>Rocket Backpack</h5>
+                    <div class="object-container object-container--epic">
+                      <img class="image object-container__img" />
+                      <div
+                        class="level overlay overlay--bottom-left overlay__number overlay__number--level-maxed"
+                      ></div>
+                    </div>
+                    <div class="mt-2">
+                      <input
+                        type="range"
+                        class="slider slider--theme"
+                        oninput="updateOffense(this)"
+                      />
+                    </div>
+                    <div
+                      class="d-flex justify-content-md-evenly justify-content-center gap-3"
+                    >
+                      <button
+                        type="button"
+                        class="btn btn-success"
+                        value="1"
+                        onclick="addAction(this)"
+                      >
+                        Add 1
+                      </button>
+                      <button
+                        type="button"
+                        class="btn btn-success"
+                        value="5"
+                        onclick="addAction(this)"
+                      >
+                        Add 5
+                      </button>
+                    </div>
+                  </div>				  
                   <div
                     class="col offense equipment card-custom card-custom__object text-center"
                     data-id="seeking_shield"
