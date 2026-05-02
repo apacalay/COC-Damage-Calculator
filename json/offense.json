@@ -95,6 +95,20 @@
           "27": 2200
         }
       },
+      "flame_blower": {
+        "rarity": "common",
+        "damage_type": "direct",
+        "damage": {
+          "0": 0,
+          "1-2": 1300,
+          "3-5": 1375,
+          "6-8": 1500,
+          "9-11": 1750,
+          "12-14": 2000,
+          "15-17": 2250,
+          "18": 2500
+        }
+      },      
       "fireball": {
         "rarity": "epic",
         "damage_type": "direct",
